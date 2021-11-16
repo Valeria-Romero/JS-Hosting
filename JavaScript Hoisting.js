@@ -76,7 +76,7 @@
 
 // NUMBER 5
 // GIVEN
-// mean();
+// mean(); //function is not defined yet, will trow an error
 // console.log(food);
 // var mean = function() {
 // 	food = "chicken";
@@ -87,6 +87,14 @@
 // console.log(food);
 
 // AFTER HOISTING BY THE INTERPRETER
+// var food;
+// var mean = function() {
+//     food = "chicken";
+// 	console.log(food);
+// 	var food = "fish";
+// 	console.log(food);
+// }
+// mean();
 
 
 // -----------------------------------------------
